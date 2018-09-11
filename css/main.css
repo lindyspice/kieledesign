@@ -1,0 +1,207 @@
+/*** GRID ***/
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+/********* BASIC FONT STYLES *********/
+
+@font-face{
+	font-family: 'Buttercup';
+	src: url('../fonts/buttercup_sample.otf') format('opentype');
+}
+
+body {
+	font-family: futura-pt, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+}
+
+h1, h2, h3 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 40px;
+}
+h2 {
+	font-size: 34px;
+}
+h3 {
+	font-size: 24px;
+}
+h4 {
+	font-size: 18px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 21px;
+    padding: 10px 0;
+}
+
+/********* HEADER *********/
+
+header {
+	height: 70px;
+	margin: 0 auto;
+}
+
+header h1 {
+	float: left;
+	margin: 0;
+	padding-top: 18px;
+}
+header h1 span {
+	color: #8abc48;
+}
+
+header nav {
+	float: right;
+	padding-top: 40px;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 0 0 0 10px;
+	display: inline;
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#8abc48;
+}
+
+/********* ALL MAIN SECTIONS *********/
+
+#about, #services, #contact {
+	height: 400px;
+	clear: both;
+}
+
+/********* ABOUT  *********/
+
+.main-image {
+	height: auto;
+	float: left;
+}
+.main-image img {
+	border-top: 3px solid #8abc48;
+	border-bottom: 3px solid #8abc48;
+}
+
+.main-title {
+	height: auto;
+	float: left;
+}
+.main-title h2 {
+	text-align: left;
+	color: #8abc48;
+}
+.main-title p {
+	line-height: 25px;
+}
+
+/********* SERVICES  *********/
+
+#services {
+	background-color: lightgrey;
+	text-align: center;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+.menu li {
+	padding: 5px 0;
+	color:#8abc48;
+}
+
+/********* CONTACT *********/
+
+#contact {
+	background-color: #ebebeb;
+}
+
+#contact .full-width {
+	padding: 20px 0;
+}
+
+#contact img#contact-img {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+}
+
+/*these two bits scoot all the contact details to the right a bit */
+#contact h3, #contact h4, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 25px;
+}
+#contact #envelope {
+    padding: 0 10px 0 25px;
+}
+
+
+#contact #email-header {
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #8abc48;
+    font-size: 25px;
+}
+/* this bit scrubs the list dingbags */
+#contact ul {
+    list-style: none;
+}
+
+/* this bit moves the list of things into a horizontal block/row */
+#contact ul li {
+     display: inline-block;
+ }
+
+/* this bit conforms the sizing of each icon and adds spacing between them */
+ #contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}
+
+
+/*** FOOTER ***/
+
+footer {
+	height: 50px;
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+footer span {
+	color: #8abc48;
+}
+
+
+
